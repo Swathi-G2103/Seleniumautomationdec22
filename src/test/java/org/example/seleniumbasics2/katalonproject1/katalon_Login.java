@@ -46,8 +46,6 @@ public class katalon_Login {
         String currentUrl = driver.getCurrentUrl();
         Assert.assertEquals(currentUrl, "https://katalon-demo-cura.herokuapp.com/#appointment");
 
-
-        Thread.sleep(5000);
         driver.quit();
 
     }
