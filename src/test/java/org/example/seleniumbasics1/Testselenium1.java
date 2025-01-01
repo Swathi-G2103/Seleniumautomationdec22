@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class Testselenium1 {
-    @Description("open the URL")
+    @Description("open the URL ")
     @Test
 public void test_selenium()
     {
